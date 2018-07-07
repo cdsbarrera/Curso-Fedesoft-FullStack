@@ -1,0 +1,66 @@
+$regular-font: 'Raleway', sans-serif;
+$title-font: 'Shrikhand', cursive;
+
+$color-title: black;
+$letter-title: white;
+$bordercolor-module: black;
+$color-module: gray;
+$letter-module: black;
+$color-background: lightgrey;
+
+body {
+    background-color:$color-background;
+}
+
+.info-match {
+    float: top;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $color-module;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    border-left: 3px solid $bordercolor-module;
+    border-bottom: 3px solid $bordercolor-module;
+}
+
+.title-match {
+    position: relative;
+    float: top;
+    height: 30px;
+    background-color: $color-title;
+    color: $letter-title;
+    font-family: $title-font;
+    line-height: 30px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.home-match{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-family: $regular-font;
+    text-align: center;
+    line-height: 90px;
+    font-size: 50px;
+}
+
+.away-match{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-family: $regular-font;
+    text-align: center;
+    line-height: 90px;
+    font-size: 50px;
+}
+
+.position-img {
+    transform: translateY(25%);
+}

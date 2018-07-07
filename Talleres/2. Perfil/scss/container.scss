@@ -1,0 +1,30 @@
+/* CONTAINER SECTION */
+/* Classes */
+.title-section {
+    font-size: xx-large;
+    text-decoration: bold;
+}
+
+.section {
+	border-radius: 10px;
+	background-color: $container-section-bgcolor;
+	border: $container-section-bordercolor;
+	text-align: center;
+	margin: 5px 10px 10px 10px;
+	padding: 15px;
+}
+
+/* IDs */
+#container {
+	font-family: $container-font-family;
+	float: top;
+	padding-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+#container p {
+	font-size: medium;
+}

@@ -1,0 +1,140 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+/* HEADER SECTION */
+#header {
+	float: top;
+	position: fixed;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#icon {
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.centerTextHeader {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+#my-name {
+	font-size: 30px;
+	text-decoration: bold;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	background-color: black;
+}
+
+#menu {
+	float: right;
+	margin-right: 15px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+#menu li {
+	float: left;
+	text-align: center;
+}
+
+#menu li a {
+    display: block;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+	background-color: lightslategrey;
+}
+
+/* CONTAINER SECTION */
+/* Classes */
+.title-section {
+	font-size: large;
+}
+
+.section {
+	border-radius: 10px;
+	background-color: whitesmoke;
+	border: 1px solid gray;
+	text-align: center;
+	margin: 5px auto 10px auto;
+	padding: 15px;
+}
+
+/* IDs */
+#container {
+	font-family: 'Lato', sans-serif;
+	float: top;
+	padding-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+#container p {
+	font-size: medium;
+}
+/* FOOTER SECTION */
+/* Classes */
+.centerTextFooter {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+/* IDs */
+#footer {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 70%;
+	text-align: center;
+	float: top;
+	background-color: black;
+	color: white;
+	height: 30px;
+	width: 100%;
+}
+
+#footer a {
+	color: whitesmoke;
+	text-decoration: none;
+	cursor: default;
+}
+#footer a:hover {
+	color: red;	
+}
+#footer a:focus {
+	color: blue;
+}
+#footer a:active {
+	color:hotpink;
+}

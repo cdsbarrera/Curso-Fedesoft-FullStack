@@ -1,0 +1,18 @@
+@keyframes gol {
+    0% {margin-left: 0px; margin-top: 425px; width: 100px; height: 100px;}
+    40% {margin-left: 180px; margin-top: 340px;}
+    80% {margin-left: 240px; margin-top: 250px; width: 20px; height: 20px;}
+    100% {margin-left: 235px; margin-top: 247px; width: 10px; height: 10px;}
+}
+body {
+    background-image: url("https://1079638729.rsc.cdn77.org/androidgame_img/finger_free_kick_master_kicks_soccer/real/2_finger_free_kick_master_kicks_soccer.jpg");
+    background-repeat: no-repeat;
+}
+
+.campo {
+    
+    animation-name: gol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+

@@ -1,0 +1,34 @@
+/* FOOTER SECTION */
+/* Classes */
+.centerTextFooter {
+	text-align: center;
+	vertical-align: middle;
+	line-height: $footer-height;
+}
+
+/* IDs */
+#footer {
+	font-family: $container-font-family;
+	font-size: 70%;
+	text-align: center;
+	float: top;
+	background-color: $footer-bgcolor;
+	color: $footer-fontcolor;
+	height: $footer-height;
+	width: 100%;
+}
+
+#footer a {
+	color: whitesmoke;
+	text-decoration: none;
+	cursor: default;
+}
+#footer a:hover {
+	color: red;	
+}
+#footer a:focus {
+	color: blue;
+}
+#footer a:active {
+	color:hotpink;
+}

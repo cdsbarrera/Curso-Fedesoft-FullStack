@@ -1,0 +1,48 @@
+@import 'main';
+
+// UNDELINE LINKS
+a, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover
+{
+    color: $font-link;
+}
+
+// CHOOSE
+/*
+li:first-of-type {
+    a {
+        color: $color-youtube;
+    }
+}
+
+li:first-of-type + li {
+    a {
+        color: $color-facebook;
+    }
+}
+
+li:first-of-type + li + li {
+    a {
+        color: $color-google;
+    }
+}
+*/
+
+a[href="https://www.youtube.com/"] {
+    color: $color-youtube;
+}
+
+a[href="https://es-la.facebook.com/"] {
+    color: $color-facebook;
+}
+
+a[href="https://www.google.com/"] {
+    color: $color-google;
+}

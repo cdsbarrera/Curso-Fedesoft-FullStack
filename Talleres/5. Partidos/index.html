@@ -1,0 +1,36 @@
+<!<!DOCTYPE html>
+<html ng-app="aplicacion">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mis marcadores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Shrikhand" rel="stylesheet">
+    <script src="libs/angularJS/angular.min.js"></script>
+    <script src="script/app.js"></script>
+</head>
+<body ng-controller="ejemploCtrl">
+    <div ng-repeat="match in teams">
+        <div ng-if = "$even">
+            <div class="info-match">
+                <div class="title-match">
+                    {{teams[$index].country}} vs {{teams[$index+1].country}}
+                </div>
+                <div class="home-match">
+                    <img class="position-img" src="http://www.countryflags.io/{{teams[$index].code}}/flat/64.png">
+                    {{teams[$index].goals}}
+                </div>
+                <div class="away-match">
+                    <img class="position-img" src="http://www.countryflags.io/{{teams[$index+1].code}}/flat/64.png">
+                    {{teams[$index+1].goals}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

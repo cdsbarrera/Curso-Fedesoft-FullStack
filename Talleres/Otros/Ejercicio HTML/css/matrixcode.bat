@@ -1,0 +1,3 @@
+:matrixcode
+write
+goto matrixcode

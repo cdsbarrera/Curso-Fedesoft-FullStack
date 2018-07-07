@@ -1,0 +1,25 @@
+$header-bgcolor: black;
+$header-fontcolor: white;
+$header-font-family: 'Maven Pro', sans-serif;
+
+$container-section-bgcolor: whitesmoke;
+$container-section-bordercolor: 1px solid gray;
+$container-font-family: 'Lato', sans-serif;
+
+$footer-bgcolor: black;
+$footer-fontcolor: white;
+$footer-height: 30px;
+
+// HEADER
+@import 'header';
+// CONTAINER
+@import 'container';
+// FOOTER
+@import 'footer';
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
